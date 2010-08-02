@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.help {
+	background: url(../images/help.png) no-repeat left center;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 25px;
+	padding-left: 34px;
+}
+
+header, section {
+	display: block;
+	overflow: hidden;
+}
+
+body {
+	background: url(../images/bg.png);
+	font-family: "lucida grande", arial, sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+	background: url(../images/shortcuts.png);
+	height: 61px;
+	text-indent: -9999px;
+	width: 706px;
+}
+
+#page {
+	margin: 0 auto;
+	padding: 60px;
+	width: 720px;
+}
+
+section.shortcuts h2 {
+	background: no-repeat left center;
+	color: #fff;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 24px;
+	line-height: 31px;
+	padding-left: 40px;
+	text-shadow: 2px 2px 3px #333;
+	text-transform: lowercase;
+}
+
+#mac h2 		{ background-image: url(../images/mac.png); }
+#finder h2 		{ background-image: url(../images/finder.png); }
+#textmate h2 	{ background-image: url(../images/textmate.png); }
+
+section.shortcuts {
+	background: url(../images/border.png) repeat-x bottom;
+	padding: 35px 0;
+}
+
+section.shortcuts:last-child {
+	background: none;
+}
+
+section.shortcuts header {
+	overflow: hidden;
+}
+
+section.shortcuts h2 {
+	float: left;
+}
+
+section.shortcuts p {
+	color: #fff;
+	font-family: georgia, "times new roman", serif;
+	font-size: 12px;
+	float: left;
+	line-height: 37px;
+	margin-left: 10px;
+}
+
+section.shortcuts p:before {
+	content: "//";
+}
+
+thead {
+	display: none;
+}
+
+td {
+	overflow: hidden;
+	padding: 10px 10px 10px 0;
+}
+
+td.shortcut {
+	overflow: hidden;
+	text-align: right;
+}
+
+td.description {
+	color: #fff;
+	font-family: "American Typewriter", georgia, "time new roman", serif;
+	font-size: 16px;
+	text-shadow: 1px 1px #333;
+}
+
+kbd {
+	background: #eee;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	float: left;
+	font-family: monaco, monospace;
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	margin-right: 5px;
+	padding: 2px 7px;
+}
+
+kbd:last-child {
+	margin-right: 0;
+}
+
+#help {
+	background: rgba(0,0,0,.3);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-top: 25px;
+	overflow: hidden;
+	padding: 25px;
+}
+
+#help ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+#help li {
+	color: #aaa;
+	float: left;
+	width: 150px;
+}
+
+#help h2 {
+	font-size: 14px;
+	font-family: helvetica, arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+#help * {
+	color: #fff;
+}
+

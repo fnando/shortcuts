@@ -1,0 +1,26 @@
+<section id="<%= app.permalink %>" class="shortcuts">
+	<header>
+		<h2><%= app.name %></h2>
+		<p><%= app.description %></p>
+	</header>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Shortcut</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<% for shortcut in app.shortcuts %>
+				<tr>
+					<td class="shortcut">
+						<%= shortcut.to_html %>
+					</td>
+					<td class="description"><%= shortcut.description %></td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
+</section>

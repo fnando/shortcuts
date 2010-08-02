@@ -1,0 +1,90 @@
+name: "Finder"
+permalink: "finder"
+description: "The Macintosh Desktop Experience"
+shortcuts:
+  - - cmd + N
+    - New Finder window
+
+  - - cmd + shift + N
+    - New folder
+
+  - - cmd + option + N
+    - New smart folder
+
+  - - spacebar
+    - Quick look selected item
+
+  - - cmd + option + I
+    - Open inspector for selection
+
+  - - cmd + delete
+    - Remove selected file
+
+  - - cmd + shift + delete
+    - Empty trash
+
+  - - return
+    - Edit selected file name
+
+  - - cmd + 1
+    - Switch to icons view
+
+  - - cmd + 2
+    - Switch to list view
+
+  - - cmd + 3
+    - Switch to column view
+
+  - - cmd + 4
+    - Switch to coverflow view
+
+  - - ctrl + cmd + 1
+    - Arrange files by name
+
+  - - ctrl + cmd + 2
+    - Arrange files by modification
+
+  - - ctrl + cmd + 3
+    - Arrange files by creation
+
+  - - ctrl + cmd + 4
+    - Arrange files by size
+
+  - - ctrl + cmd + 5
+    - Arrange files by kind
+
+  - - ctrl + cmd + 6
+    - Arrange files by label
+
+  - - cmd + up
+    - Go to parent directory
+
+  - - cmd + O
+    - Open selected file/directory
+
+  - - cmd + shift + G
+    - Go to folder
+
+  - - cmd + shift + H
+    - Go to Home
+
+  - - cmd + shift + A
+    - Go to Applications
+
+  - - cmd + shift + D
+    - Go to Desktop
+
+  - - cmd + shift + C
+    - Go to Computer
+
+  - - cmd + shift + K
+    - Display Network
+
+  - - cmd + K
+    - Connect to server
+
+  - - cmd + [
+    - Go back
+
+  - - cmd + ]
+    - Go forward

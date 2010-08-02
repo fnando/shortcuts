@@ -1,0 +1,39 @@
+name: "TextMate"
+permalink: "textmate"
+description: "The missing editor. Code and markup brought to the 21st century."
+shortcuts:
+  - - cmd + right
+    - Go to the end of line
+
+  - - cmd + left
+    - Go to the beginning of line
+
+  - - cmd + up
+    - Go to the beginning of document
+
+  - - cmd + down
+    - Go to the end of document
+
+  - - option + left
+    - Go to the beginning of word
+
+  - - option + right
+    - Go to the end of line
+
+  - - cmd + L
+    - Go to line
+
+  - - cmd + option + L
+    - Show/Hide line numbers
+
+  - - cmd + option + B
+    - Show/Hide bookmarks
+
+  - - cmd + F2
+    - Bookmark current line
+
+  - - F2
+    - Go to next bookmark
+
+  - - shift + F2
+    - Go to previous bookmark

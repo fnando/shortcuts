@@ -1,0 +1,87 @@
+name: "Mac OS X"
+permalink: "mac"
+description: "The world's most advanced operating system. Finely tuned."
+shortcuts:
+  - - cmd + option + esc
+    - Force quit
+
+  - - ctrl + option + eject
+    - Sleep now
+
+  - - cmd + shift + Q
+    - Log out
+
+  - - cmd + shift + option + Q
+    - Log out without confirming
+
+  - - ctrl + cmd + eject
+    - Restart Mac OS X
+
+  - - ctrl + shift + eject
+    - Sleep display
+
+  - - ctrl + option + cmd + eject
+    - Shutdown
+
+  - - cmd + tab
+    - Cycle between opened apps
+
+  - - cmd + shift + tab
+    - Cycle between opened apps in reverse order
+
+  - - cmd + `
+    - Cycle between opened windows
+
+  - - cmd + shift + `
+    - Cycle between opened windows in reverse order
+
+  - - ctrl + F4
+    - Cycle between opened windows from all applications
+
+  - - ctrl + shift + F4
+    - Cycle between opened windows from all applications in reverse order
+
+  - - F8
+    - Display Spaces
+
+  - - F9
+    - Exposé for all windows
+
+  - - F10
+    - Exposé for windows in select app
+
+  - - F11
+    - Reveal desktop
+
+  - - F12
+    - Dashboard
+
+  - - ctrl + F2
+    - Activate Apple menu bar
+
+  - - ctrl + F3
+    - Activate Dock
+
+  - - ctrl + F8
+    - Activate Menu Extras (right side of menu bar)
+
+  - - cmd + space
+    - Activate Spotlight
+
+  - - cmd + option + =
+    - Zoom in
+
+  - - cmd + option + _
+    - Zoom out
+
+  - - shift + volume
+    - Change volume without sound effect
+
+  - - option + shift + volume
+    - Fine-grained volume control
+
+  - - option + volume
+    - Open Sound preference pane
+
+  - - option + brightness
+    - Open Display preference pane

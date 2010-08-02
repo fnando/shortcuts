@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Shortcuts. Because mouse is for noobies.</title>
+		<link rel="stylesheet" href="/stylesheets/shortcuts.css" type="text/css">
+	</head>
+
+	<body>
+		<div id="page">
+			<header>
+				<h1>Shortcuts.</h1>
+			</header>
+
+			<p>
+				<a href="#help" class="help">Need help with keyboard symbols?</a>
+			</p>
+
+			<% for app in App.sorted %>
+				<%= erb :"_app", :layout => false, :locals => {:app => app} %>
+			<% end %>
+
+			<section id="help">
+				<h2>Keyboard symbols</h2>
+
+				<ul>
+					<li>
+						<strong>&#x2318;:</strong> command
+					</li>
+
+					<li>
+						<strong>&#x2325;:</strong> option
+					</li>
+
+					<li>
+						<strong>&#x21E7;:</strong> shift
+					</li>
+
+					<li>
+						<strong>&#x21E5;:</strong> tab
+					</li>
+
+					<li>
+						<strong>&#x2303;:</strong> control
+					</li>
+
+					<li>
+						<strong>&#x2326;:</strong> delete
+					</li>
+
+					<li>
+						<strong>&#x21A9;:</strong> return
+					</li>
+
+					<li>
+						<strong>&#x238B;:</strong> esc
+					</li>
+
+					<li>
+						<strong>&#x2191;:</strong> arrow up
+					</li>
+
+					<li>
+						<strong>&#x2192;:</strong> arrow right
+					</li>
+
+					<li>
+						<strong>&#x2193;:</strong> arrow down
+					</li>
+
+					<li>
+						<strong>&#x2190;:</strong> arrow left
+					</li>
+				</ul>
+			</section>
+		</div>
+	</body>
+</html>
