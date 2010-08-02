@@ -8,6 +8,18 @@ shortcuts:
   - - cmd + left
     - Go to the beginning of line
 
+  - - cmd + shift + right
+    - Select text from cursor to the end of line
+
+  - - cmd + shift + left
+    - Select text from cursor to the beginning of line
+
+  - - option + shift + right
+    - Select text from cursor to the end of word
+
+  - - option + shift + left
+    - Select text from cursor to the beginning of word
+
   - - cmd + up
     - Go to the beginning of document
 
