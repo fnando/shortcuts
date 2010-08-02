@@ -112,7 +112,7 @@ kbd {
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
-	float: left;
+	display: inline-block;
 	font-family: monaco, monospace;
 	font-size: 12px;
 	height: 18px;
