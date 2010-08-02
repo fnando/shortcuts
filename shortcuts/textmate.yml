@@ -20,6 +20,30 @@ shortcuts:
   - - option + shift + left
     - Select text from cursor to the beginning of word
 
+  - - ctrl + cmd + up
+    - Move current line/selection up
+
+  - - ctrl + cmd + down
+    - Move current line/selection down
+
+  - - cmd + [
+    - Unindent current line/selection
+
+  - - cmd + ]
+    - Indent current line/selection
+
+  - - ctrl + option + B
+    - Select current scope
+
+  - - ctrl + W
+    - Select current word
+
+  - - cmd + shift + L
+    - Select current line
+
+  - - cmd + shift + B
+    - Select enclosing brackets
+
   - - cmd + up
     - Go to the beginning of document
 
@@ -30,7 +54,7 @@ shortcuts:
     - Go to the beginning of word
 
   - - option + right
-    - Go to the end of line
+    - Go to the end of word
 
   - - cmd + L
     - Go to line
@@ -49,3 +73,69 @@ shortcuts:
 
   - - shift + F2
     - Go to previous bookmark
+
+  - - ctrl + shift + N
+    - Show document/selection stats
+
+  - - ctrl + shift + P
+    - Show current scope
+
+  - - ctrl + shift + D
+    - Duplicate current line/selection
+
+  - - ctrl + shift + K
+    - Delete current line/selection
+
+  - - cmd + /
+    - Comment/Uncomment current line/selection
+
+  - - F5
+    - Sort selected lines
+
+  - - ctrl + option + cmd + D
+    - Toggle drawer
+
+  - - cmd + option + W
+    - Toggle soft wrap
+
+  - - ctrl + cmd + R
+    - Reveal current file in project
+
+  - - cmd + [
+    - Unindent current line/selection
+
+  - - ctrl + option + cmd + V
+    - Paste from history
+
+  - - ctrl + shift + V
+    - Paste previous entry
+
+  - - cmd + F
+    - Find
+
+  - - cmd + shift + F
+    - Find in project
+
+  - - cmd + G
+    - Find next
+
+  - - cmd + shift + G
+    - Find previous
+
+  - - ctrl + cmd + F
+    - Replace all
+
+  - - ctrl + shift + cmd + F
+    - Replace in selection
+
+  - - cmd + option + F
+    - Replace and find
+
+  - - cmd + E
+    - Use selection to find
+
+  - - cmd + shift + E
+    - Use selection to replace
+
+  - - esc
+    - Complete word based on current document
