@@ -156,3 +156,15 @@ kbd:last-child {
 	color: #fff;
 }
 
+footer {
+	display: block;
+	padding-top: 10px;
+}
+
+footer, footer * {
+	color: #333;
+	font-family: "helvetica";
+	font-weight: bold;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #777;
+}
