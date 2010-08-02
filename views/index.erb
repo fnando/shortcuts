@@ -16,7 +16,7 @@
 				<a href="#help" class="help">Need help with keyboard symbols?</a>
 			</p>
 
-			<% for app in App.sorted %>
+			<% for app in App.all %>
 				<%= erb :"_app", :layout => false, :locals => {:app => app} %>
 			<% end %>
 

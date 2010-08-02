@@ -1,25 +1,32 @@
-class App < ActiveRecord::Base
-  has_many :shortcuts, :dependent => :destroy
+class App
+  include MongoMapper::Document
 
-  scope :sorted, order("name asc")
+  many :shortcuts
+  key :permalink, String
+  key :name, String
+  key :description, String
 
   def self.load_all
-    Dir[File.dirname(__FILE__) + "/../shortcuts/*.yml"].each do |file|
-      load(file)
+    Dir[File.dirname(__FILE__) + "/../shortcuts/**/*.yml"].each do |file|
+      self.load_file(File.expand_path(file))
     end
   end
 
-  def self.load(file)
-    info = HashWithIndifferentAccess.new(YAML.load_file(file))
+  def self.load_file(file)
+    info = YAML.load_file(file)
+    attrs = {
+      :name => info["name"],
+      :description => info["description"]
+    }
 
     # Find app or create it. Then update its attributes.
-    app = find_or_create_by_permalink(info[:permalink])
-    app.update_attributes :name => info[:name], :description => info[:description]
+    app = find_or_create_by_permalink(info["permalink"])
+    app.update_attributes(attrs)
 
     # Remove all shortcuts. Then add them once again.
     app.shortcuts.destroy_all
 
-    info[:shortcuts].each do |shortcut, description|
+    info["shortcuts"].each do |shortcut, description|
       app.shortcuts.create(:shortcut => shortcut, :description => description)
     end
   end

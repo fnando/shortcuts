@@ -1,5 +1,9 @@
-class Shortcut < ActiveRecord::Base
-  belongs_to :app, :counter_cache => true
+class Shortcut
+  include MongoMapper::Document
+
+  key :app_id, ObjectId
+  key :shortcut, String
+  key :description, String
 
   KEYS = {
     :cmd    => "&#x2318;",
@@ -20,7 +24,7 @@ class Shortcut < ActiveRecord::Base
 
   def to_html
     String.new.tap do |html|
-      keys = shortcut.split("+").collect(&:squish)
+      keys = shortcut.split("+").collect {|s| s.gsub(/^ *(.*?) ?$/, '\1') }
       keys.each {|key| html << kbd_tag(key) if MODIFIERS.include?(key)}
       (keys - MODIFIERS).each {|key| html << kbd_tag(key)}
     end
