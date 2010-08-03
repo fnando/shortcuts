@@ -59,6 +59,21 @@ shortcuts:
   - - cmd + L
     - Go to line
 
+  - - cmd + T
+    - Go to file
+
+  - - cmd + shift + T
+    - Go to symbol
+
+  - - cmd + [1-9]
+    - Go to tab
+
+  - - cmd + option + right
+    - Go to next tab
+
+  - - cmd + option + left
+    - Go to previous tab
+
   - - cmd + option + L
     - Show/Hide line numbers
 
@@ -139,3 +154,60 @@ shortcuts:
 
   - - esc
     - Complete word based on current document
+
+  - - ctrl + U
+    - Uppercase text
+
+  - - ctrl + shift + U
+    - Downcase text
+
+  - - ctrl + option + U
+    - Titlecase text
+
+  - - ctrl + G
+    - Opposite case
+
+  - - ctrl + esc
+    - Open bundle menu
+
+  - - ctrl + option + shift + [A-Z]
+    - Switch between different languages
+
+  - - ctrl + cmd + T
+    - Select bundle item
+
+  - - ctrl + shift + E
+    - Execute current line/selection as Ruby code
+
+  - - ctrl + option + cmd + P
+    - Preview document
+
+  - - cmd + option + O
+    - Switch between insert and overwrite mode
+
+  - - ctrl + Q
+    - Reformat the current paragraph
+
+  - - ctrl + J
+    - Reformat and justify current paragraph
+
+  - - ctrl + option + Q
+    - Remove any newline character from current paragraph
+
+  - - ctrl + shift + T
+    - Display TODO List
+
+  - - ctrl + cmd + option + B
+    - Open Bundle editor
+
+  - - lorem + tab
+    - Generate text placeholder
+
+  - - ctrl + option + shift + V
+    - Paste selection to Paste Bin
+
+  - - cmd + option + ]
+    - Align variable assignments
+
+  - - ctrl + tab
+    - Switch between editing window and project drawer
