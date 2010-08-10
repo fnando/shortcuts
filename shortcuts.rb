@@ -10,5 +10,6 @@ end
 
 get "/:app" do
   @apps = App.where(:permalink => params["app"])
+  redirect("/") if @apps.empty?
   erb :index
 end

@@ -1,0 +1,9 @@
+name: "Some app"
+permalink: "some-app"
+description: "Some nice app. Period."
+shortcuts:
+  - - cmd + right
+    - Go forward
+
+  - - cmd + left
+    - Go backward

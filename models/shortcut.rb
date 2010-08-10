@@ -21,8 +21,6 @@ class Shortcut
     :up     => "&#x2191;"
   }
 
-  MODIFIERS = %w[shift ctrl option cmd delete return up down left right esc tab]
-
   def to_html
     String.new.tap do |html|
       keys = shortcut.split("+").collect {|s| s.gsub(/^ *(.*?) ?$/, '\1') }

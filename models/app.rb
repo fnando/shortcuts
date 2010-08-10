@@ -30,5 +30,8 @@ class App
     info["shortcuts"].each do |shortcut, description|
       app.shortcuts.create(:shortcut => shortcut, :description => description)
     end
+
+    # Return app
+    app
   end
 end

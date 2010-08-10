@@ -17,7 +17,8 @@ Bundler.require(Sinatra::Base.environment)
 require "mongo_mapper"
 
 MongoMapper.config = {
-  :development => {"uri" => "mongodb://localhost/shortcuts"},
+  :development => {"uri" => "mongodb://localhost/shortcuts-development"},
+  :test        => {"uri" => "mongodb://localhost/shortcuts-test"},
   :production  => {"uri" => ENV["MONGOHQ_URL"]}
 }
 
