@@ -1,0 +1,87 @@
+name: "Photoshop"
+permalink: "photoshop"
+description: "The professional standard image-editing software."
+shortcuts:
+  - - cmd + option + shift + K
+    - Open keyboard shortcuts window
+
+  - - cmd + K
+    - Open preferences window
+
+  - - cmd + G
+    - Group selected layers
+
+  - - cmd + shift + G
+    - Ungroup selected layers
+
+  - - cmd + E
+    - Merge layers
+
+  - - cmd + shift + E
+    - Merge visible layers
+
+  - - cmd + shift + N
+    - New layer
+
+  - - cmd + J
+    - Duplicate selected layer
+
+  - - cmd + option + A
+    - Select all layers
+
+  - - cmd + [
+    - Move layer down
+
+  - - cmd + ]
+    - Move layer up
+
+  - - M
+    - Marquee tool (keep shift pressed to switch tool)
+
+  - - V
+    - Move tool
+
+  - - L
+    - Lasso tool (keep shift pressed to switch tool)
+
+  - - W
+    - Quick selection tool (keep shift pressed to switch tool)
+
+  - - C
+    - Crop tool (keep shift pressed to switch tool)
+
+  - - I
+    - Eyedropper tool (keep shift pressed to switch tool)
+
+  - - G
+    - Gradient tool (keep shift pressed to switch tool)
+
+  - - T
+    - Text tool (keep shift pressed to switch tool)
+
+  - - D
+    - Selection tool (keep shift pressed to switch tool)
+
+  - - U
+    - Shape tool (keep shift pressed to switch tool)
+
+  - - Z
+    - Zoom tool
+
+  - - cmd + T
+    - Free transform
+
+  - - cmd + Z
+    - Undo
+
+  - - cmd + option + Z
+    - Undo multiple actions
+
+  - - cmd + shift + Z
+    - Redo
+
+  - - cmd + option + I
+    - Set image size
+
+  - - cmd + option + C
+    - Set canvas size

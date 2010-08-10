@@ -5,6 +5,7 @@ class App
   key :permalink, String
   key :name, String
   key :description, String
+  timestamps!
 
   def self.load_all
     Dir[File.dirname(__FILE__) + "/../shortcuts/**/*.yml"].each do |file|

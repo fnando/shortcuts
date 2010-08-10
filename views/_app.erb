@@ -1,7 +1,10 @@
 <section id="<%= app.permalink %>" class="shortcuts">
 	<header>
 		<h2><%= app.name %></h2>
-		<p><%= app.description %></p>
+		<p class="description"><%= app.description %></p>
+		<p class="link">
+			<a href="/<%= app.permalink %>">Link to this app</a>
+		</p>
 	</header>
 
 	<table>
@@ -13,7 +16,7 @@
 		</thead>
 
 		<tbody>
-			<% for shortcut in app.shortcuts %>
+			<% for shortcut in app.shortcuts.sort(:created_at) %>
 				<tr>
 					<td class="shortcut">
 						<%= shortcut.to_html %>

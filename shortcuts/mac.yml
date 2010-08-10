@@ -85,3 +85,18 @@ shortcuts:
 
   - - option + brightness
     - Open Display preference pane
+
+  - - C
+    - Force boot from DVD (while booting)
+
+  - - D
+    - Force boot from first internal hard-drive (while booting)
+
+  - - shift
+    - Safe mode (while booting)
+
+  - - cmd + V
+    - Enable verbose mode (while booting)
+
+  - - cmd + S
+    - Enable Single User Mode  (while booting)

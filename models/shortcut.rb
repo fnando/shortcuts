@@ -4,6 +4,7 @@ class Shortcut
   key :app_id, ObjectId
   key :shortcut, String
   key :description, String
+  timestamps!
 
   KEYS = {
     :cmd    => "&#x2318;",
@@ -25,8 +26,7 @@ class Shortcut
   def to_html
     String.new.tap do |html|
       keys = shortcut.split("+").collect {|s| s.gsub(/^ *(.*?) ?$/, '\1') }
-      keys.each {|key| html << kbd_tag(key) if MODIFIERS.include?(key)}
-      (keys - MODIFIERS).each {|key| html << kbd_tag(key)}
+      keys.each {|key| html << kbd_tag(key)}
     end
   end
 
