@@ -5,7 +5,7 @@ shortcuts:
   - - cmd + option + esc
     - Force quit
 
-  - - ctrl + option + eject
+  - - cmd + option + eject
     - Sleep now
 
   - - cmd + shift + Q
