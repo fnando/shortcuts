@@ -3,9 +3,9 @@ require "boot"
 set :views,   File.dirname(__FILE__) + "/views"
 set :public,  File.dirname(__FILE__) + "/static"
 
-get "/" do
-  @apps = App.sort(:name)
-  erb :index
+get "/apps.json" do
+  content_type :json
+  {:apps => App.all}.to_json
 end
 
 get "/:app.json" do
@@ -20,3 +20,9 @@ get "/:app" do
   redirect("/") if @apps.empty?
   erb :index
 end
+
+get "/" do
+  @apps = App.sort(:name)
+  erb :index
+end
+
