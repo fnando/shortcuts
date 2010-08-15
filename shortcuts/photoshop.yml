@@ -85,3 +85,15 @@ shortcuts:
 
   - - cmd + option + C
     - Set canvas size
+
+  - - cmd + 0
+    - Fit to screen
+
+  - - cmd + 1
+    - View actual size (100%)
+
+  - - cmd + plus
+    - Zoom in
+
+  - - cmd + minus
+    - Zoom out

@@ -18,7 +18,9 @@ class Shortcut
     :right  => "&#x2192;",
     :shift  => "&#x21E7;",
     :tab    => "&#x21E5;",
-    :up     => "&#x2191;"
+    :up     => "&#x2191;",
+    :plus   => "+",
+    :minus  => "-"
   }
 
   def to_html
