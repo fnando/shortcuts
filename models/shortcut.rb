@@ -4,9 +4,10 @@ class Shortcut
   key :app_id, ObjectId
   key :shortcut, String
   key :description, String
+  key :position, Integer
   timestamps!
 
-  scope :sorted, sort(:created_at)
+  scope :sorted, sort(:position)
 
   KEYS = {
     :cmd    => "&#x2318;",

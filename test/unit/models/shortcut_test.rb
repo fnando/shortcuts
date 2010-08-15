@@ -26,8 +26,8 @@ class ShortcutTest < Test::Unit::TestCase
   end
 
   def test_return_sorted_shortcuts
-    @newer = Shortcut.create(:shortcut => "cmd + 0")
-    @older = Shortcut.create(:shortcut => "cmd + 1", :created_at => 2.days.ago)
+    @newer = Shortcut.create(:shortcut => "cmd + 0", :position => 1)
+    @older = Shortcut.create(:shortcut => "cmd + 1", :position => 0)
 
     assert_equal [@older, @newer], Shortcut.sorted.all
   end

@@ -28,7 +28,11 @@ class App
     app.shortcuts.destroy_all
 
     info["shortcuts"].each do |shortcut, description|
-      app.shortcuts.create(:shortcut => shortcut, :description => description)
+      app.shortcuts.create(
+        :shortcut => shortcut,
+        :description => description,
+        :position => app.shortcuts.count
+      )
     end
 
     # Return app
