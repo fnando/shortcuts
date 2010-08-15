@@ -6,6 +6,8 @@ class Shortcut
   key :description, String
   timestamps!
 
+  scope :sorted, sort(:created_at)
+
   KEYS = {
     :cmd    => "&#x2318;",
     :ctrl   => "&#x2303;",

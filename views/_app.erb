@@ -16,7 +16,7 @@
 		</thead>
 
 		<tbody>
-			<% for shortcut in app.shortcuts.sort(:created_at) %>
+			<% for shortcut in app.shortcuts.sorted.all %>
 				<tr>
 					<td class="shortcut">
 						<%= shortcut.to_html %>
