@@ -8,8 +8,15 @@ get "/" do
   erb :index
 end
 
+get "/:app.json" do
+  content_type :json
+
+  @app = App.find_by_permalink!(params["app"])
+  {:app => @app, :shortcuts => @app.shortcuts.sorted.all}.to_json
+end
+
 get "/:app" do
-  @apps = App.where(:permalink => params["app"])
+  @apps = [App.find_by_permalink(params["app"])].compact
   redirect("/") if @apps.empty?
   erb :index
 end

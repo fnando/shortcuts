@@ -16,6 +16,21 @@ class ShortcutsTest < Test::Unit::TestCase
     assert last_response.ok?
   end
 
+  def test_recognize_json_app_path
+    get "/textmate.json"
+    assert last_response.ok?
+  end
+
+  def test_render_json_output
+    get "/textmate.json"
+    data = JSON.load(last_response.body)
+
+    @app = App.find_by_permalink("textmate")
+
+    assert_equal @app.name, data["app"]["name"]
+    assert_equal @app.shortcuts.count, data["shortcuts"].count
+  end
+
   def test_redirect_if_no_app_is_found
     get "/invalid"
     assert last_response.redirect?

@@ -9,6 +9,7 @@ end
 
 require "erb"
 require "yaml"
+require "json"
 
 Bundler.require
 Bundler.setup(Sinatra::Base.environment)
