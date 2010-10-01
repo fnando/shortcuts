@@ -209,10 +209,10 @@ shortcuts:
   - - ctrl + cmd + shift + L
     - Diagram unlock
 
-  - - ctrl + cmd + +
+  - - ctrl + cmd + plus
     - Diagram zoom in
 
-  - - ctrl + cmd + -
+  - - ctrl + cmd + minus
     - Diagram zoom out
 
   - - ctrl + cmd + =
@@ -263,7 +263,7 @@ shortcuts:
   - - cmd + shift + I
     - Step into
 
-  - - cmd + + shift + option + I
+  - - cmd + shift + option + I
     - Step into instruction
 
   - - cmd + shift + O
