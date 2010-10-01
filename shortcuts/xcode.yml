@@ -1,0 +1,277 @@
+name: "Xcode"
+permalink: "xcode"
+description: "Your integrated development environment for creating iPad, iPhone, and Mac apps."
+shortcuts:
+  - - cmd + shift + N
+    - New project
+
+  - - cmd + N
+    - New file
+
+  - - ctrl + cmd + N
+    - New empty file
+
+  - - cmd + O
+    - Open
+
+  - - cmd + option + N
+    - Open in separate editor
+
+  - - cmd + shift + D
+    - Open quickly
+
+  - - cmd + I
+    - Show inspector
+
+  - - cmd + W
+    - Close window
+
+  - - cmd + option + W
+    - Close all
+
+  - - ctrl + cmd + W
+    - Close project
+
+  - - cmd + shift + W
+    - Close current file
+
+  - - cmd + S
+    - Save file
+
+  - - cmd + option + S
+    - Save all
+
+  - - cmd + shift + S
+    - Save as
+
+  - - cmd + shift + option + S
+    - Save copy as
+
+  - - cmd + U
+    - Revert to saved
+
+  - - cmd + ctrl + S
+    - Make snapshot
+
+  - - cmd + shift + J
+    - Refactor
+
+  - - cmd + D
+    - Add to bookmarks
+
+  - - cmd + L
+    - Go to line
+
+  - - ctrl + .
+    - Next completion
+
+  - - option + esc
+    - Completion list
+
+  - - ctrl + /
+    - Select next placeholder
+
+  - - cmd + shift + F
+    - Find in project
+
+  - - cmd + F
+    - Find in file
+
+  - - cmd + G
+    - Find next
+
+  - - cmd + shift + G
+    - Find previous
+
+  - - cmd + E
+    - Use selection for find
+
+  - - ctrl + cmd + E
+    - Use selector for replace
+
+  - - cmd + J
+    - Jump to selection
+
+  - - cmd + option + F
+    - Detail
+
+  - - cmd + shift + E
+    - Zoom editor out
+
+  - - cmd + shift + option + E
+    - Zoom editor out fully
+
+  - - cmd + option + right
+    - Go forward
+
+  - - cmd + option + left
+    - Go backward
+
+  - - cmd + option + up
+    - Switch to Header/Source
+
+  - - cmd + shift + option + T
+    - Reveal in group tree
+
+  - - ctrl + cmd + left
+    - Fold
+
+  - - ctrl + cmd + right
+    - Unfold
+
+  - - ctrl + U
+    - Unfold all
+
+  - - ctrl + cmd + up
+    - Fold method/functions
+
+  - - ctrl + cmd + down
+    - Unfold method/functions
+
+  - - ctrl + cmd + shift + up
+    - Fold comment blocks
+
+  - - ctrl + cmd + shift + down
+    - Unfold comment blocks
+
+  - - ctrl + cmd + option + F
+    - Focus follows selection
+
+  - - cmd + shift + H
+    - Show all message bubbles
+
+  - - cmd + shift + option + H
+    - Hide all message bubbles
+
+  - - cmd + 0
+    - Go to project
+
+  - - cmd + shift + C
+    - Class browser
+
+  - - cmd + option + N
+    - New group
+
+  - - cmd + option + G
+    - Group
+
+  - - cmd + shift + option + G
+    - Ungroup
+
+  - - cmd + option + A
+    - Add to project
+
+  - - cmd + option + E
+    - Edit active target
+
+  - - cmd + option + X
+    - Edit active executable
+
+  - - cmd + shift + B
+    - Build results
+
+  - - cmd + B
+    - Build
+
+  - - cmd + enter
+    - Build and Go
+
+  - - cmd + R
+    - Build and Run
+
+  - - cmd + Y
+    - Build and Debug
+
+  - - cmd + shift + K
+    - Clean
+
+  - - cmd + =
+    - Next build warning/error
+
+  - - cmd + shift + =
+    - Previous build warning/error
+
+  - - cmd + K
+    - Compile
+
+  - - ctrl + cmd + B
+    - Show model browser
+
+  - - ctrl + cmd + shift + F
+    - Diagram bring to front
+
+  - - ctrl + cmd + shift + B
+    - Diagram bring to back
+
+  - - ctrl + cmd + L
+    - Diagram lock
+
+  - - ctrl + cmd + shift + L
+    - Diagram unlock
+
+  - - ctrl + cmd + +
+    - Diagram zoom in
+
+  - - ctrl + cmd + -
+    - Diagram zoom out
+
+  - - ctrl + cmd + =
+    - Diagram zoom to fit
+
+  - - ctrl + cmd + F
+    - Force directed layout
+
+  - - ctrl + cmd + H
+    - Hierarchical layout
+
+  - - cmd + option + enter
+    - Go
+
+  - - cmd + option + R
+    - Run
+
+  - - cmd + option + Y
+    - Debug
+
+  - - cmd + shift + enter
+    - Stop
+
+  - - cmd + shift + Y
+    - Debugger
+
+  - - cmd + shift + R
+    - Console
+
+  - - ctrl + cmd + option + R
+    - Clear console
+
+  - - cmd + option + B
+    - Show breakpoints
+
+  - - ctrl + cmd + \
+    - Turn breakpoints on
+
+  - - cmd + \
+    - Add breakpoint at current line
+
+  - - cmd + option + \
+    - Enable breakpoint at current line
+
+  - - cmd + option + P
+    - Pause
+
+  - - cmd + shift + I
+    - Step into
+
+  - - cmd + + shift + option + I
+    - Step into instruction
+
+  - - cmd + shift + O
+    - Step over
+
+  - - cmd + shift + option + O
+    - Step over instruction
+
+  - - cmd + shift + T
+    - Step out
+

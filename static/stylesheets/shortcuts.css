@@ -57,6 +57,7 @@ section.shortcuts h2 {
 #finder h2 		{ background-image: url(../images/finder.png); }
 #textmate h2 	{ background-image: url(../images/textmate.png); }
 #photoshop h2 	{ background-image: url(../images/photoshop.png); }
+#xcode h2 		{ background-image: url(../images/xcode.png); }
 
 section.shortcuts {
 	background: url(../images/border.png) repeat-x bottom;

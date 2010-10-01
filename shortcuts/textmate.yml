@@ -211,3 +211,9 @@ shortcuts:
 
   - - ctrl + tab
     - Switch between editing window and project drawer
+
+  - - ctrl + K
+    - Delete from cursor to the end of line
+
+  - - cmd + backspace
+    - Delete from cursor to the start of line
