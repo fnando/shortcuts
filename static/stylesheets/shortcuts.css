@@ -23,7 +23,7 @@ header, section {
 }
 
 body {
-	background: url(../images/bg.png);
+	background: #3c3c3c url(../images/bg.png);
 	font-family: "lucida grande", arial, sans-serif;
 	font-size: 12px;
 }
