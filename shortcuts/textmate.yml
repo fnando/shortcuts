@@ -68,10 +68,10 @@ shortcuts:
   - - cmd + [1-9]
     - Go to tab
 
-  - - cmd + option + right
+  - - cmd + shift + ]
     - Go to next tab
 
-  - - cmd + option + left
+  - - cmd + shift + [
     - Go to previous tab
 
   - - cmd + option + L
