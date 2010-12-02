@@ -100,3 +100,6 @@ shortcuts:
 
   - - cmd + S
     - Enable Single User Mode  (while booting)
+
+  - - option
+    - Open System Picker with bootable systems from mounted devices (while booting)
