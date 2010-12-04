@@ -11,6 +11,11 @@ class ShortcutsTest < Test::Unit::TestCase
     assert last_response.ok?
   end
 
+  def test_recognize_api_path
+    get "/api"
+    assert last_response.ok?
+  end
+
   def test_recognize_app_path
     get "/textmate"
     assert last_response.ok?
@@ -57,5 +62,11 @@ class ShortcutsTest < Test::Unit::TestCase
     assert_have_selector "section.shortcuts", :count => 1
     assert_have_selector "section.shortcuts h2", :count => 1
     assert_contain "TextMate"
+  end
+
+  def test_render_api_page
+    get "/api"
+    assert_contain "http://shortcutsapp.info/apps.json"
+    assert_contain "http://shortcutsapp.info/apps/:app_name.json"
   end
 end

@@ -42,15 +42,18 @@ h1 a {
 	width: 720px;
 }
 
-section.shortcuts h2 {
+header h2 {
 	background: no-repeat left center;
 	color: #fff;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 24px;
 	line-height: 31px;
-	padding-left: 40px;
 	text-shadow: 2px 2px 3px #333;
 	text-transform: lowercase;
+}
+
+section.shortcuts h2 {
+	padding-left: 40px;
 }
 
 #mac h2 		{ background-image: url(../images/mac.png); }
@@ -72,15 +75,13 @@ section.shortcuts header {
 	overflow: hidden;
 }
 
-section.shortcuts h2 {
+header h2 {
 	float: left;
 }
 
 section.shortcuts .link a {
 	background: rgba(0,0,0,.3);
 	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
 	color: #666;
 	display: inline-block;
 	font-size: 10px;
@@ -94,19 +95,19 @@ section.shortcuts .link a:hover {
 	color: #888;
 }
 
-section.shortcuts p {
+header p {
 	float: left;
 	line-height: 37px;
 	margin-left: 10px;
 }
 
-section.shortcuts p.description {
+header p.description {
 	color: #fff;
 	font-family: georgia, "times new roman", serif;
 	font-size: 12px;
 }
 
-section.shortcuts p.description:before {
+header p.description:before {
 	content: "//";
 }
 
@@ -124,7 +125,8 @@ td.shortcut {
 	text-align: right;
 }
 
-td.description {
+td.description,
+dd.description {
 	color: #fff;
 	font-family: "American Typewriter", georgia, "time new roman", serif;
 	font-size: 16px;
@@ -134,8 +136,6 @@ td.description {
 kbd {
 	background: #eee;
 	border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
 	display: inline-block;
 	font-family: monaco, monospace;
 	font-size: 12px;
@@ -152,8 +152,6 @@ kbd:last-child {
 #help {
 	background: rgba(0,0,0,.3);
 	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
 	margin-top: 25px;
 	overflow: hidden;
 	padding: 25px;
@@ -182,7 +180,13 @@ kbd:last-child {
 
 footer {
 	display: block;
+	overflow: hidden;
 	padding-top: 10px;
+}
+
+footer p {
+	float: left;
+	margin-right: 10px;
 }
 
 footer, footer * {
@@ -191,4 +195,22 @@ footer, footer * {
 	font-weight: bold;
 	font-size: 16px;
 	text-shadow: 1px 1px 1px #777;
+}
+
+#api {
+	background: url(../images/border.png) repeat-x bottom;
+	padding: 20px 0;
+}
+
+#api dt {
+	color: #fd0;
+	font-family: monaco, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-shadow: 1px 1px #333;
+}
+
+#api dd {
+	font-size: 15px;
 }

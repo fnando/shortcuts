@@ -37,6 +37,6 @@ class AppTest < Test::Unit::TestCase
     App.destroy_all
     App.load_all
 
-    assert_equal 4, App.count
+    assert_equal 5, App.count
   end
 end

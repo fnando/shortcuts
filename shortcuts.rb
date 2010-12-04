@@ -3,6 +3,10 @@ require "boot"
 set :views,   File.dirname(__FILE__) + "/views"
 set :public,  File.dirname(__FILE__) + "/static"
 
+get "/api" do
+  erb :api
+end
+
 get "/apps.json" do
   content_type :json
   {:apps => App.all}.to_json
@@ -25,4 +29,3 @@ get "/" do
   @apps = App.sort(:name)
   erb :index
 end
-
