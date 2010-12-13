@@ -1,0 +1,63 @@
+name: "iTunes"
+permalink: "itunes"
+description: "Everything you need to be entertained"
+shortcuts:
+  - - cmd + L
+    - Display current playing track
+
+  - - cmd + N
+    - New playlist
+
+  - - cmd + shift + N
+    - New playlist from selected
+
+  - - cmd + option + N
+    - New smart playlist
+
+  - - cmd + I
+    - Get info
+
+  - - cmd + up
+    - Increase volume
+
+  - - cmd + down
+    - Decrease volume
+
+  - - space
+    - Pause
+
+  - - cmd + right
+    - Next song
+
+  - - cmd + left
+    - Previous song
+
+  - - cmd + option + 1
+    - iTunes
+
+  - - cmd + option + 2
+    - Equalizer
+
+  - - cmd + option + 3
+    - Display tracks as list
+
+  - - cmd + option + 4
+    - Display tracks as album list
+
+  - - cmd + option + 5
+    - Display tracks as grid
+
+  - - cmd + option + 6
+    - Display tracks as Cover Flow
+
+  - - cmd + shift + G
+    - Toggle sidebar
+
+  - - cmd + J
+    - View column options
+
+  - - left
+    - Play track from the beginning
+
+  - - cmd + T
+    - Show visualizer
